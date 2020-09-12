@@ -1,2 +1,152 @@
+:root {
+--main-font:  'Roboto', sans-serif;  
+--color: #2196F3
+}
+
+/* ============  BODY  ============*/
+.body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    }
+
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* ============  END BODY  ============*/
+
+/* ============  lOGO  ============*/
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+   }
+
+.logo-color {
+    color: #000000;
+}
+
+.logo:hover,
+.logo:focus {
+    color:  #2196F3;
+}
+
+/* ============  END LOGO  ============*/
+/* ============  OUR PROJAECTS  ============*/
+/* ============  NAVIGATION  ============*/
+.navigation-list-item {
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.navigation-list-link {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+    color: #2196F3;
+}
 
 
+.address-item {
+    color: #212121; 
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.address-item-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    color: #757575;
+}
+/* ============   END NAVIGATION  ============*/
+
+/* ============  OUR PROJECTS  ============*/
+.project-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.project-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* ============  END OUR PROJECTS  ============*/ 
+
+/* ============  FOOTER  ============*/
+
+.footer {
+    background-color: #2F303A;;
+}
+    
+.footer-logo-color {
+    color: #FFFFFF ;
+    text-decoration: none;
+}
+
+.footer-address-item-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21,71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-logo-color {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-logo-blue {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+
+.footer-address-contact-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ============  END FOOTER  ============*/
