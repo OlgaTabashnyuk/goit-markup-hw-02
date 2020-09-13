@@ -1,5 +1,5 @@
 
-/*============ sTUDIA===========*/
+/*============ STUDIA===========*/
 /* ============  BODY  ============*/
 .body {
     font-family: Roboto, sans-serif;
@@ -53,8 +53,6 @@ a {
     letter-spacing: 0.02em;
 }
 
-
-}
 
 .address-item {
     color: #212121; 
@@ -170,6 +168,7 @@ color: #FFFFFF;
 .address-item-link:focus 
 .address-item-link:active{
     color: #2196F3;
+}
 
 .hero-title {
     font-family: Roboto;
