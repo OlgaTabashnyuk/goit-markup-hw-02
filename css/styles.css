@@ -167,7 +167,8 @@ color: #FFFFFF;
 .navigation-list-link:hover,
 .navigation-list-link:focus 
 .address-item-link:hover,
-.address-item-link:focus {
+.address-item-link:focus 
+.address-item-link:active{
     color: #2196F3;
 
 .hero-title {
