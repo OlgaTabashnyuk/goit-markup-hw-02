@@ -1,7 +1,14 @@
-/*============ HEADER ========*/
+/*  - цвет основного текста - #757575;
+    - цвет заголовков - #212121;
+    - акцент #2196F3; */
 
+.root {
+    --primary-text-color - #757575; ; 
+    --title-text-color - #212121;
+    --accent-color - #2196F3
+}
 
-/*============ STUDIA===========*/
+/*============ STUDIA (index)===========*/
 /* ============  BODY  ============*/
 .body {
     font-family: Roboto, sans-serif;
@@ -16,9 +23,8 @@ ol {
 a {
     text-decoration: none;
 }
-/* ============  END BODY  ============*/
 
-/* ============  lOGO  ============*/
+/*============  LOGO  ============*/
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -40,6 +46,149 @@ a {
 
 /* ============  END LOGO  ============*/
 
+/* ============  END BODY  ============*/
+
+/*==========navigation==============*/
+
+.navigation-list-item {
+    text-decoration: none;
+    list-style-type: none;
+ }
+
+.navigation-list-link {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color:#212121;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus 
+.address-link-mail:hover,
+.address-link-mail:focus {
+    color: var(--accent-color);
+}
+
+.address-link-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+/*============ END NAVIGATION============*/
+
+/*=========== HERO ==================*/
+.section-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+
+.hero-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.section-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+/*================ END HERO ===========*/
+
+/*=========== ADVANTAGES ===========*/
+
+.advantages-list-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.advantages-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+/*=============== END ADVANTAGES ===========*/
+
+/*===== WHAT WE DO========*/
+
+.what-we-do-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+ }
+ /*=====  END WHAT WE DO========*/
+
+/*========= OUR TEAM ========*/
+.team-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team-list {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.job-duty {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    }
+/*======== END OUR TEAM=======*/
 
 
 /* ============  OUR PROJECTS  ============*/
@@ -50,7 +199,7 @@ a {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var (--title-text-color);
 }
 
 .project-description {
@@ -60,7 +209,7 @@ a {
     font-size: 16;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--primary-text-color);
 }
 /* ============  END OUR PROJECTS  ============*/ 
 
@@ -102,8 +251,7 @@ a {
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-
-    color: #2196F3;
+    color: var(--title-text-color);
 }
 
 .footer-address-contact-link {
@@ -116,133 +264,4 @@ a {
     color: rgba(255, 255, 255, 0.6);
 }
 /* ============  END FOOTER  ============*/
-
-/*========== END STUDIA
-
-
-/*============= PORTFOLIO =================*/
-.section-title {
-font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
-}
-
-/*=================HERO ===========*/
-.navigation-list-item {
-    text-decoration: none;
-    list-style-type: none;
- }
-
-.navigation-list-link {
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    color: #212121;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-.navigation-list-link:hover,
-.navigation-list-link:focus 
-.address-link-mail:hover,
-.address-link-mail:focus {
-    color: #2196F3;
-}
-
-.address-link-tel {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #757575;
-}
-
-.hero-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: #2F303A;
-}
-
-.hero-button {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
-    color: #000000;
-    }
-
-.advantages-list-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-
-.advantages-description {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-/*===== what we do========*/
-
-.what-we-do-list {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1,16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
- }
-
-/*========= OUR TEAM ========*/
-.team-list {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-.job-duty {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: #757575;
-
-
-}
-
-
-
 
