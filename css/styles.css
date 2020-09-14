@@ -23,7 +23,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
@@ -58,7 +58,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 16;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -89,7 +89,7 @@ a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #FFFFFF;
@@ -111,7 +111,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -126,7 +126,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 1,36;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -144,7 +144,7 @@ color: #FFFFFF;
     font-weight: 500;
     font-size: 14px;
     color: #212121;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -160,7 +160,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -170,7 +170,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -182,7 +182,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     letter-spacing: 0.06em;
     color: #000000;
     }
@@ -192,7 +192,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
@@ -203,7 +203,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -226,7 +226,8 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,14;
+    line-height: 1.14;
+    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -235,7 +236,7 @@ color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,18;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: #757575;
 
