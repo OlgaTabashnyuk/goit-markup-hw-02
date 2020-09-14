@@ -59,18 +59,34 @@ a {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 14px;
-    color:#212121;
+    color: var(--title-text-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus 
+.navigation-list-link:focus,
 .address-link-mail:hover,
 .address-link-mail:focus {
     color: var(--accent-color);
 }
 
+
+
+.address-link-mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    }
+
+.address-link-mail:hover {
+    color: var(--accent-color);
+
+}
 .address-link-tel {
     font-family: Roboto;
     font-style: normal;
@@ -205,7 +221,7 @@ a {
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
